@@ -1,5 +1,5 @@
 <?php
 
-require "../private/core/config.php";
-require "../private/core/functions.php";
-require "../private/core/database.php";
+require "config.php";
+require "functions.php";
+require "database.php";
