@@ -1,3 +1,3 @@
 <?php
 
-define("APP_NAME","My POS");
+define("APP_NAME","ACELNET");
