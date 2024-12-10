@@ -1,46 +1,44 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-  <a class="navbar-brand" href="#"><?=esc(APP_NAME)?></a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Point of sales</a>
-      </li>
-        
-      <li class="nav-item">
-        <a class="nav-link" href="#">Admin</a>
-      </li>
-        
-      <li class="nav-item">
-        <a class="nav-link" href="#">Login</a>
-      </li>
-        
-     <li class="nav-item">
-        <a class="nav-link" href="#">Inscricao</a>
-      </li>
-        
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Olá, Usuario
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Perfil</a></li>
-          <li><a class="dropdown-item" href="#">Settings</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Logout</a></li>
-        </ul>
-      </li>
-        
-
-    </ul>
-      
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+    <a class="navbar-brand" href="#"><?=esc(APP_NAME)?></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php?pg=pos">Point of Sales</a>
+        </li>
+          
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?pg=admin">Admin</a>
+        </li>
+          
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?pg=login">Login</a>
+        </li>
+          
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?pg=signup">Inscrição</a>
+        </li>
+          
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Olá, Usuário
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="index.php?pg=profile">Perfil</a></li>
+            <li><a class="dropdown-item" href="index.php?pg=page-settings">Configurações</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="index.php?pg=logout">Sair</a></li>
+          </ul>
+        </li>
+          
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
   </div>
- </div>
-</nav> 
+</nav>
